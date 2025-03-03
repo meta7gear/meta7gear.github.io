@@ -1,0 +1,217 @@
+/*
+Theme Name: Amber
+Theme URI: http://ambergladeragdolls.com
+Author: Matthew Barton
+Author URI: http://eminentvictory.com/mattb
+Version: 1.0
+
+ */
+
+
+/* Alignment */
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+blockquote.alignleft,
+figure.wp-caption.alignleft,
+img.alignleft {
+	margin: 7px 24px 7px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 7px 14px 7px 0;
+}
+
+blockquote.alignright,
+figure.wp-caption.alignright,
+img.alignright {
+	margin: 7px 0 7px 24px;
+}
+
+.wp-caption.alignright {
+	margin: 7px 0 7px 14px;
+}
+
+blockquote.aligncenter,
+img.aligncenter,
+.wp-caption.aligncenter {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.img-center {
+	display: block;
+	margin: 0px auto;
+}
+
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+body {
+	font-family: 'Open Sans', Serif;
+	background: #000 url('images/background.jpg') no-repeat top center;
+}
+
+a {
+	color: #865e18;
+}
+
+p {
+	margin-bottom: 2rem;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 300;
+	padding-bottom: 20px;
+	border-bottom: 1px solid;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+main {
+	background-color: #e2cd96;
+}
+
+.wrapper {
+	padding: 0px 20px;
+}
+
+.inner {
+	background-color: #e4e0c6;
+	padding: 40px 15px;
+}
+
+nav {
+	background-color: #190e08;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin: 0px; 
+	padding: 0px;
+}
+
+nav ul li.active-menu-item a {
+	background-color: #29180c;
+}
+
+nav ul li a, #mob-nav ul li a {
+	color: #e2cd96;
+	padding: 12px 25px;
+	display: block;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+#mob-nav {
+	background-color: #190e08;
+	padding: 20px;
+}
+
+#mob-nav ul {
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: none;
+}
+
+#mob-nav ul.open {
+	display: block;
+}
+
+
+#mov-nav ul li a {
+	color: #e2cd96;
+	padding: 12px 25px;
+	display: block;
+}
+
+#menu-trigger:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+h2.widget-title {
+	background-color: #190e08;
+	color: #cbb27a;
+	font-size: 18px;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 0px;
+}
+
+.widget {
+	margin-bottom: 2rem;
+}
+
+.textwidget p {
+	margin-bottom: 10px;
+}
+
+.alignnone {
+	max-width: 100%;
+}
+
+footer, #simple-footer {
+	color: #fff;
+}
+
+
+/* MD */
+@media(max-width: 768px){
+	.wrapper {
+		padding: 0px;
+	}
+}
+
+/* LG */
+@media(max-width: 991px){
+
+
+}
+
+/* XL */
+@media(max-width: 1199px){
+
+}
